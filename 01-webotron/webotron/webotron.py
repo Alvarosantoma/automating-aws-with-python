@@ -15,7 +15,7 @@ Webotron automates the process of deploying static website
 import boto3
 import click
 
-from bucket import BucketManager
+from webotron.bucket import BucketManager
 
 session = None
 bucket_manager = None
